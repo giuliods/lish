@@ -48,14 +48,14 @@
   mandate con la newsletter come pubblicazione della nuova release di lish.
  <section #build>
   <img src=@{StaticR lish_svg}>
-  <h3>Lish v0.0.0 Devtest
+  <h3>Lish v0.1.0 Devtest
   Questa build è stata creata il 05 ottobre 2018 ad uso tecnico
   tutte le informazioni sono riservate fino all'effettiva pubblicazione
   su github e sul proprio dominio
   <table>
    <tr>
     <td>Versione
-    <td>v0.0.0
+    <td>v0.1.0
    <tr>
     <td>Database
     <td>Mongodb v4.0.0
