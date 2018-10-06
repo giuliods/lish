@@ -1,5 +1,5 @@
 $forall article <- articles
- <header style=background-image:url(#{articlesImage $ entityVal article})>
+ <header .semiheader style=background-image:url(#{articlesImage $ entityVal article})>
   <div .titleheader>
    <h1>#{articlesTitle $ entityVal article}
  <main>

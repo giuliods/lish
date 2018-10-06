@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+ <channel>
+  <title>Lightshader
+  <link>http://localhost:3000
+  <description>Un blog oggettivo sull'informazione, scienza e tecnologia
+  <language>it
+  <pubDate>Tue, 10 Jun 2003 04:00:00 GMT
+  <lastBuildDate>Tue, 10 Jun 2003 09:41:01 GMT
+  <docs>http://localhost:3000
+  <managingEditor>editor@localhost
+  <webMaster>webmaster@localhost
+  $forall article <- articles
+   <item>
+    <title>#{articlesTitle $ entityVal article}
+    <link>@{ArticleR (articlesLink $ entityVal article)}
+    <description>#{articlesContent $ entityVal article}
+    <pubDate>#{articlesDate $ entityVal article}

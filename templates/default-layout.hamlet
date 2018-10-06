@@ -1,18 +1,15 @@
 <nav>
- <a href=@{HomeR}>
-  <img src=@{StaticR lish_svg}>
+ <img src=@{StaticR lish_svg}>
  <div .menu>
+  <a href=@{HomeR}>Home
   <a href=@{HomeR}#articoli>Articoli
   <a href=@{HomeR}#sketchs>Sketchs
   <a href=@{HomeR}#informazioni>Informazioni
   <span>
-  <a>Search
-  <a .connect>
-   <img src=@{StaticR rssb_svg}>
-  <a .connect>
-   <img src=@{StaticR atomb_svg}>
-  <a .connect target=_blank href=https://matrix.to/#/+lish:matrix.org>
-   <img src=@{StaticR matrixb_svg}>
+  <input type=checkbox>Ricerca
+  <form enctype=#{searchenctype} action=@{ServiceR "iscrizione"} method=post>
+   ^{searchwidget}
+   <button>Cerca
 
 ^{widget}
 

@@ -1,16 +1,3 @@
-header
- margin:0px
- height:23vh
- background-size:cover
- background-position:top
-
-header .titleheader
- position:relative
- border:1px solid transparent
- top:0vh
- margin:0px 15vw
- font-family: 'Exo 2', sans-serif
-
 main
  width:100%
  display:block

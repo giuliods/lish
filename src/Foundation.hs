@@ -109,6 +109,7 @@ instance Yesod App where
         -- default-layout-wrapper is the entire page. Since the final
         -- value passed to hamletToRepHtml cannot be a widget, this allows
         -- you to use normal widget features in default-layout.
+        (searchwidget,searchenctype) <- generateFormPost searchForm
 
         pc <- widgetToPageContent $ do
             $(widgetFile "default-layout")
@@ -265,3 +266,10 @@ unsafeHandler = Unsafe.fakeHandlerGetLogger appLogger
 -- https://github.com/yesodweb/yesod/wiki/Sending-email
 -- https://github.com/yesodweb/yesod/wiki/Serve-static-files-from-a-separate-domain
 -- https://github.com/yesodweb/yesod/wiki/i18n-messages-in-the-scaffolding
+
+searchForm :: Form Search
+searchForm = renderDivs $ Search
+ <$> aopt textField "Ricerca" Nothing
+ <*> areq checkBoxField "ricerca avanzata" Nothing
+
+data Search = Search (Maybe Text) Bool

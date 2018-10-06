@@ -87,6 +87,14 @@
      <strong>Supportiamo gli annunci etici
      Ormai gli annunci basati su informazioni tracciate sono comuni, ma questo non le rende
      "etiche". Gli annunci vengono basati sul contenuto del sito senza tracciare i suoi visitatori.
+   <tr>
+    <td>
+     <strong>Lightshader e' libero!
+     Il sorgente di lightshader e' disponibile a tutti, senza segreti e
+     e senza riserve. Puoi scaricarlo quando vuoi con un semplice
+     <a href=http://github.com/giuliods/lish>
+      <code>git clone http://github.com/giuliods/lish.git
+    <td>
  <section .black>
   <h3>La nostra missione?
   Ogni giorno creiamo e lavoriamo  per dar vita ai nostri obbiettivi.
