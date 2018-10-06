@@ -1,0 +1,62 @@
+<header style=background-image:url(@{StaticR banner_svg})>
+ <div .titleheader>
+  <h1>Lightshader sta arrivando!
+  <span>
+   Nuovi articoli, nuovi sketchs e nuovi metodi
+   per parlare di informazione, scienza e tecnologia
+<div .menubar #main>
+ <a href=#main>
+  <img src=@{StaticR logo_svg}>
+<main>
+ <section #articoli>
+  <h1>Articoli
+  $forall article <- articles
+   <a href=@{ArticleR (articlesLink $ entityVal article)}>
+    <article>
+     <table>
+      <td .artcont>
+       <div .cat>Categoria: #{articlesCategory $ entityVal article}
+       <h1>#{articlesTitle $ entityVal article}
+       <div>di #{articlesAuthor $ entityVal article}
+       <span>#{articlesTags $ entityVal article}
+       <br>
+       <b>#{articlesDate $ entityVal article}
+      <td>
+       <img src=#{articlesImage $ entityVal article}>
+ <section .black>
+  <h3>La nostra missione?
+  Ogni giorno creiamo e lavoriamo per dar vita ai nostri obbiettivi.
+  Abbiamo dedicato un'intera pagina sulle novità di Lightshader e
+  sono sempre a disposizione
+  <br>
+  <br>
+  <a .button href=@{MissionR}>qui
+  <br>
+ <section #sketchs>
+  <h1>Sketch
+  ee
+  <br>
+ <section .black>
+  <h3>Nuovi aggiornamenti?
+  Puoi seguire le novità di Lightshader comodamente con la nostra newsletter,
+  Ti giuro che non vedrai spam.
+  <br>
+  <br>
+  <a .button>Iscrivimi!
+  <br>
+  <br>
+  Oppure iscriviti a RSS, Atom o al canale Telegram
+  <br>
+  <br>
+  <a .button>Fammi vedere!
+  <br>
+ <section #informazioni .footer_banner style=background-image:url(https://images.pexels.com/photos/19678/pexels-photo.jpg?cs=srgb&dl=boat-folding-origami-19678.jpg&fm=jpg)>
+  <div .titleheader>
+   <h1>Chì è Lightshader?
+   Lightshader è un portale nel web sulla tecnologia, la scienza e
+   l'informazione che permette a noi e voi di imparare sempre di più
+   ogni giorno e migliorare le nostre competenze e conoscienze.
+   Tutti sono invitati
+   <br>
+   <br>
+   <a href=@{AboutR} .button>Anche tu

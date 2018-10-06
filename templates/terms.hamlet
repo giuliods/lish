@@ -1,0 +1,33 @@
+<div .menubar>
+ <a>
+  <img src=@{StaticR logo_svg}>
+<main>
+ <section>
+  <h1>Terms and Licences:
+  Lightshader's terms and licences take safe articles and every information
+  in the site. Every other use is discouraged.
+  <ul>
+   <li>
+    <b>Lightshader don't use cookies or trace user data
+    <br>
+    We aren't interested of personal datas and informations, so there's no
+    cookie in this site or trace user data.
+   <li>
+    <b>Lightshader don't use js for tracing or other activities
+    <br>
+    In fact we don't appreciate js and how js work, so our site is js free
+    or quasi-free. You can use nojs without any using and visible issue.
+   <li>
+    <b>Lightshader articles and sketchs are under CC:BY-NC-SA
+    <br>
+    Every original content in Lightshader is under creative common licence
+    <ul>
+     <li>BY: You have to share the author name with the article (use fancy snippets)
+     <li>NC: You can't get money or monetize lightshader contents
+     <li>SA: When you share a edited lightshader content you have to use the same licence
+   <li>
+    <b>We support ethical ads
+    <br>
+    Unethical activities are common on internet, but this don't make them "ethical",
+    ads are based on aproximated tracking and privacy violations.
+    Our ads are based on a ethical purpose of specifical interest

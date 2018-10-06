@@ -1,0 +1,32 @@
+$forall article <- articles
+ <header style=background-image:url(#{articlesImage $ entityVal article})>
+  <div .titleheader>
+   <h1>#{articlesTitle $ entityVal article}
+ <main>
+  <br>
+  <section itemprop=pageStart>
+   <article itemscope itemtype=http://schema.org/Article>
+    <span .hidden itemprop=name>#{articlesTitle $ entityVal article}
+    <div .cat>Categoria: #{articlesCategory $ entityVal article}
+    <span>#{articlesTags $ entityVal article}
+    <div>
+     Articolo di:
+     <i itemprop=author>#{articlesAuthor $ entityVal article}
+    <br>
+    <p itemprop=articleBody>#{articlesContent $ entityVal article}
+    <time #date datetime=#{articlesDate $ entityVal article} pubdate>
+     <b itemprop=datePublished>#{articlesDate $ entityVal article}
+  <br itemprop=pageEnd>
+  <img src=@{StaticR scrissors_svg} #scrissors>
+  <section .newsletter>
+   <h1>Per nuovi articoli:
+   Iscriviti alla newsletter di Lightshader o ai feed rss e atom,
+   sarai costantemente aggiornato su novita e' uscite!
+   <br>
+   <br>
+   Per restare sempre connesso e conoscere Lightshader passa sul
+   gruppo matrix da
+   <a href=https://matrix.to/#/+lish:matrix.org>qui
+   .
+   <br> 
+  <br>

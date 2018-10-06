@@ -1,0 +1,14 @@
+main
+ margin:10vw
+ min-height:50vh
+ color:#404040
+ .menu
+  word-spacing:1em
+  border-bottom:2px solid #404040
+  a
+   color:#404040
+  .check
+   background-color:#404040
+   color:#fafafa
+ form
+  margin:5vh 15vw

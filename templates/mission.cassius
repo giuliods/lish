@@ -1,0 +1,38 @@
+main
+ width:100%
+ display:block
+ margin:0px 0px
+ text-align:left
+
+main section
+ padding:0px 10vw
+
+main .footer_banner
+ height:100vh
+ background-size:cover
+
+main li
+ list-style:circle
+ border:1px solid #fafafa
+ background-color:#dedede
+ padding:3vh 1vw
+ color:#343434
+
+main .check
+ list-style:unset !important
+ background-color:#deebff
+ color:#344179
+ padding:5vh 1vw
+
+main #build
+ padding:0px 20vw
+ text-align:center
+ img
+  width:200px
+ table
+  width:100%
+  background-color:#eee
+  border-collapse:collapse
+ tr, td
+  border:2px solid #fafafa
+  padding:5px

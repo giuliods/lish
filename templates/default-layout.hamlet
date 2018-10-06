@@ -1,0 +1,58 @@
+<nav>
+ <a href=@{HomeR}>
+  <img src=@{StaticR lish_svg}>
+ <div .menu>
+  <a href=@{HomeR}#articoli>Articoli
+  <a href=@{HomeR}#sketchs>Sketchs
+  <a href=@{HomeR}#informazioni>Informazioni
+  <span>
+  <a>Search
+  <a .connect>
+   <img src=@{StaticR rssb_svg}>
+  <a .connect>
+   <img src=@{StaticR atomb_svg}>
+  <a .connect target=_blank href=https://matrix.to/#/+lish:matrix.org>
+   <img src=@{StaticR matrixb_svg}>
+
+^{widget}
+
+<footer>
+ <section>
+  <aside .links>
+   <ul>
+    <li>
+     <a href=@{HomeR}>Pagina principale
+    <li>
+     <a>Articoli
+    <li>
+     <a>Sketchs
+    <li>
+     <a href=@{AboutR}>Informazioni
+    <li>
+     <a href=@{LinksR}>Collegamenti
+    <li>
+     <a href=@{ServiceR "home"}>Servizi
+    <li>
+     <a href=@{TermsR}>Termini e privacy
+  <aside .logo>
+   <img src=@{StaticR lish2_svg}>
+  <aside .external_links>
+   <ul>
+    <li #social>
+     <a>
+      <img src=@{StaticR rss_svg}>
+     <a>
+      <img src=@{StaticR atom_svg}>
+     <a>
+      <img src=@{StaticR mailing_svg}>
+     <a target=_blank href=https://matrix.to/#/+lish:matrix.org>
+      <img src=@{StaticR matrix_svg}>
+     <a>
+      <img src=@{StaticR telegram_svg}>
+    <li><br>
+    <li .infos>giuliodestasio98@gmail.com
+    <li .infos>giuliods (gitHub)
+    <li .infos>@aiken:matrix.org
+ <br>
+ <div>
+  #{appCopyright $ appSettings master}

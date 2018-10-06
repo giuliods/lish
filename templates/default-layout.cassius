@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lato|Exo+2')
+
+body 
+ margin:0px
+ background-color:#FAFAFA
+ font-family: 'Lato', sans-serif
+ scroll-behavior: smooth
+
+nav 
+ display:block
+ position:fixed
+ top:5px
+ left:10px
+ z-index:9
+ img 
+  width:35px
+ .menu 
+  transform:translateY(-50px)
+  background-color:white
+  color:#344179
+  position:fixed
+  top:0px
+  left:0px
+  width:100%
+  height:45px
+  word-spacing:6vw
+  padding-left:10vh
+  z-index:-1
+  img
+   width:30px
+   margin-top:7px
+  a
+   color:#344179
+  a:visited
+   color:#233068
+  a:active
+   color:white
+   background-color:#344179
+  span
+   padding:0px 20vw
+  .connect
+   margin-left:-4vw
+
+nav:hover .menu 
+ transform:translateY(0px)
+
+header
+ margin:0px
+ height:100vh
+ background-size:cover
+ background-position:top
+ .titleheader
+  h1, span, ul
+   background-color:#344179
+   color:white
+   opacity:0.8
+
+.semiheader
+ height:23vh
+ .titleheader
+  top:0px
+
+.titleheader
+ position:relative
+ border:1px solid transparent
+ top:45vh
+ margin:0px 15vw
+ font-family: 'Exo 2', sans-serif
+
+
+footer
+ background-color:#404040
+ font-family:'Roboto',sans-serif
+ color:white
+ section
+  display:flex
+  width:100%
+ div
+  text-align:center
+  padding:10px 0px
+ aside
+  width:33.333%
+ .links
+  text-align:right
+ .logo
+  text-align:center
+ .logo img
+  width:40%
+ ul
+  list-style:none
+  padding-left:0px
+ a
+  color:white
+ a:visited
+  color:#aaa
+ a:active
+  color:#404040
+  background-color:white
+ .infos
+  color:#717171
+
+#social
+ display:flex
+ img
+  width:30px
+  margin-right:15px
+
+main
+ section
+  padding:0px 10vw
+  .button
+   border:2px solid black
+   border-radius:4px
+   color:white
+   background-color:black
+   padding:5px
+  .button:active
+   background-color:transparent
+   color:black
+ .black
+  background-color:#404040
+  color:white
+  padding:20px 5vw
+  .button
+   border:2px solid white
+   border-radius:4px
+   background-color:white
+   color:#404040
+   padding:5px
+  .button:active
+   background-color:#404040
+   color:white

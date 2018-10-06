@@ -1,0 +1,4 @@
+database:
+  database: lish_test
+
+auth-dummy-login: true

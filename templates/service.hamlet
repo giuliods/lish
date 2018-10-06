@@ -1,0 +1,33 @@
+<header>
+ <div .titleheader>
+  <h1>Sezione Servizi
+  aka: il luogo degli zeri di Lightshader
+<main>
+ <section>
+  <h1>Benvenuto nella sezione servizi di Lightshader
+  La sezione di servizi e' il nome con cui vengono raggruppati
+  tutti i servizi e strumenti che danno al framework Yesod
+  senso d'esistere.
+  <br>
+  A differenza di quello che si potrebbe pensare "servizi"
+  <b>non
+  e' una cartella, ma un sottoprogramma di Lish che si occupa
+  di generare automaticamente le pagine. Qui troverete tutto
+  cio' che lightshader puo' offrire sotto il profilo di strumenti
+  e tecnologia.
+ <section .tools>
+  <aside>
+   <a href=@{ServiceR "iscrizione"}>
+    <h3>Iscrizione/disiscrizione Newsletter
+  <aside>
+   <h3>Gestore API Lightshader
+  <aside>
+   <h3>Casella articoli creati
+  <aside>
+   <h3>feed RSS
+  <aside>
+   <h3>feed Atom
+  <aside>
+   <h3>Articoli in HTML base
+  <aside>
+   <h3>webmanifest

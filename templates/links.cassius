@@ -1,0 +1,43 @@
+header
+ margin:0px
+ height:100vh
+ background-size:cover
+ background-position:top
+
+header .titleheader
+ position:relative
+ border:1px solid transparent
+ top:45vh
+ margin:0px 15vw
+ font-family: 'Exo 2', sans-serif
+
+.menubar
+ width:100%
+ height:5vh
+ box-shadow:0px 3px 2px #777
+ background-color:transparent
+ position:relative
+ top:-5vh
+
+.menubar img
+ height:100%
+ position:relative
+ width:100%
+
+main
+ width:100%
+ display:block
+ margin:0px 0px
+ text-align:left
+
+main section
+ padding:0px 10vw
+
+main .black
+ background-color:#404040
+ color:white
+ padding:20px 5vw
+
+main .footer_banner
+ height:100vh
+ background-size:cover

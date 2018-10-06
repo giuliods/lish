@@ -1,0 +1,46 @@
+header
+ margin:0px
+ height:100vh
+ background-size:cover
+ background-position:top
+
+header .titleheader
+ position:relative
+ border:1px solid transparent
+ top:45vh
+ margin:0px 15vw
+ font-family: 'Exo 2', sans-serif
+
+main
+ width:100%
+ display:block
+ margin:0px 0px
+ text-align:left
+ #authorstitle 
+  text-align:center
+ section
+  padding:0px 10vw
+
+main .footer_banner
+ height:100vh
+ background-size:cover
+
+main .authors
+ display:grid
+ text-align:center
+ padding:5vh 0px
+
+main .authors div:nth-child(3n+1)
+ grid-column:1
+
+main .authors div:nth-child(3n+2)
+ grid-column:2
+
+main .authors div:nth-child(3n)
+ grid-column:3
+
+main .authors img
+ width:15vh
+ height:15vh
+ border-radius:15vh
+

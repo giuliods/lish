@@ -1,0 +1,71 @@
+<header style=background-image:url(http://horizonc.altervista.org/lishwall1.png) .semiheader>
+ <div .titleheader>
+  <h1>Lightshader
+  <span>
+   <ul>
+    <li>E' un sito innovativo e leggero;
+    <li>E' etico nei confronti della privacy;
+    <li>Non li frega niente dei problemi di voi umani...
+   e
+   <b>ha un piano...
+<main>
+ <section>
+  <h1>Obbiettivi
+  Lightshader, internamente da sito come esternamente ha
+  degli obbiettivi che man mano cercherà di raggiungere.
+  Il nostro progetto è in continua crescita è come specificato
+  sopra
+  <b>ha un piano
+  .
+  <br>
+  Parte della lista è stata già introdotta nel primo articolo
+  del sito. Quella che seguirà sarà una lista più aggiornata
+  e gestita meglio:
+  <ul>
+   <li .check>Sviluppo di una pagina sugli obbiettivi di Lightshader;
+   <li>Sviluppo una pagina informativa ed esplicativa sul tracciamento;
+   <li>Una informativa sulla privacy, termini d'uso e cookie rivista;
+   <li>Inserimento dei feed RSS ed Atoms, sotto le icone;
+   <li>Sviluppo della newsletter sulle novità, a maniera di giornale;
+   <li .check>Sviluppo del gruppo su [Matrix];
+   <li>Sviluppo dei social e piattaforme di pubblicazione e collegamenti;
+   <li>Un programma che semplifichi la creazione degli articoli;
+   <li>L'archivio degli articoli e degli sketchs;
+   <li>La pagina dei contatti e dei vari links;
+   <li .check>Inserimento dei fonts;
+   <li>Modernizzare la barra;
+   <li>Schema per gli articoli e per le immagini;
+   <li>Sviluppo del container;
+   <li>Rivisitazione delle immagini;
+   <li>Compressione e accelerazione del sito;
+   <li>Dominio e PAAS;
+   <li .check>tag per identificare gli articoli e i sketch;
+   <li>un sistema di ricerca, per trovare i vecchi articoli;
+   <li>Creare le pagine d'errore (400,404,403,500,503,...);
+   <li .check>Sviluppo pagine servizi.
+  Questa pagina si aggiornerà automaticamente a modifica effettuata.
+  per modifiche su questa pagina non ci sono notifiche, queste verranno
+  mandate con la newsletter come pubblicazione della nuova release di lish.
+ <section #build>
+  <img src=@{StaticR lish_svg}>
+  <h3>Lish v0.0.0 Devtest
+  Questa build è stata creata il 05 ottobre 2018 ad uso tecnico
+  tutte le informazioni sono riservate fino all'effettiva pubblicazione
+  su github e sul proprio dominio
+  <table>
+   <tr>
+    <td>Versione
+    <td>v0.0.0
+   <tr>
+    <td>Database
+    <td>Mongodb v4.0.0
+   <tr>
+    <td>Build
+    <td>Compilato da sorgente
+ <section>
+  Volete suggerire o contribuire al progetto?
+  potete farlo contattandoci via mail, come issue su Github oppure
+  direttamente sul gruppo di [Matrix]!
+  <br>
+  <br>
+  <br>

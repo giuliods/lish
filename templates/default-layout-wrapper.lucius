@@ -1,0 +1,16 @@
+body
+ magin:0px
+ background-color:#FAFAFA
+
+nav
+ display:block
+ position:fixed
+ top:10px
+ left:10px
+ z-index:9
+
+nav img
+ width:50%
+nav div
+ display:none
+

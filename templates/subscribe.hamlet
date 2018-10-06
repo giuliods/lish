@@ -1,0 +1,13 @@
+<main>
+ <div .menu>
+  <a href=@{ServiceR "iscrizione"} .check>Iscrizione
+  <a href=@{ServiceR "disiscrizione"}>Disiscrizione
+ <section>
+  <form enctype=#{enctype} action=@{ServiceR "iscrizione"} method=post>
+   ^{widget}
+   <button>Invia
+  <p>
+   *: I termini d'uso e trattamento dati vengono spiegati per esteso nella pagina
+   <a href=@{TermsR}>per i termini d'uso
+   Spuntando si dara' il consenso per il trattamento dei dati personali a fini
+   statistici e tecnici.

@@ -1,0 +1,106 @@
+<header style=background-image:url(http://horizonc.altervista.org/lishwall2.png)>
+ <div .titleheader>
+  <h1>A place for sharing and learning!
+<main>
+ <section>
+  <h1>Lightshader è
+  Un portale nel web sulla tecnologia, la scienza e le informazioni che
+  permette a noi e voi di imparare sempre di più ogni giorno e migliorare
+  le nostre competenze e conoscienze.
+  <br>
+  Le informazioni sono alla base del nostro vivere quotidiano, che siano
+  articoli, bollettini o post sui social le informazioni sono entrate nelle
+  nostre case e hanno cambiato la nostra vita diventando portatili,
+  interattive e sopprattutto:
+  <b>Accessibili
+  .
+  <br>
+  Con Lightshader il nostro intento sarà indentrarci nel bosco delle
+  informazioni e sviscerarle evincendo curiosità e informazioni utili
+  senza per forza dare un giudizio o una recensione sulle cose.
+  <br>
+  <br>
+  Ma per far si che questo funzioni dobbiamo fissare delle regole di base,
+  semplici affermazioni che regolino i nostri articoli per non incappare
+  nel
+  <a target=_blank href=https://it.wikipedia.org/wiki/Teoremi_di_incompletezza_di_G%C3%B6del>
+   Teorema di incompletezza di
+   <i>Gödel
+  .
+  Queste regole non vogliono intendersi come dei paletti sugli argomenti
+  trattati e trattabili, ma un indirizzo del sito e della piattaforma in
+  generale.
+  <ul>
+   <li>
+    Gli articoli
+    <b>vengono esposti con rigore logico
+    o comunque in maniera oggettiva, possibilmente avvalorando l'articolo
+    con citazioni e fonti;
+   <li>
+    Gli articoli
+    <b>non seguono idee o parti politiche, religiose o sociali
+    , non c'è nessuna intenzione propagandistica dietro gli articoli;
+   <li>
+    Gli articoli vengono scritti seguendo
+    <b>l'informazione corretta
+    , non c'è intenzione di propagandare notizie false e inventate,
+    possibili casualità non saranno intenzionali e di pronta correzione.
+ <section>
+  <h1>Su di noi?
+  Lightshader e' stato creato con un occhio di riguardo ad un web piu'
+  pulito e potente. Senza JS e codice che possa pesare e rovinare
+  l'esperienza. Inoltre si avvalora l'uso di CSS semplice, dei
+  sistemi come il W3C aria e dei framework web come
+  <a href=https://www.yesodweb.com target=_blank>yesod
+  , il sistema alla base di Lightshader.
+  <br>
+  <table>
+   <tr>
+    <td>
+     <strong>Lightshader non usa cookies o metodi per tracciare i dati personali.
+     Crediamo nella privacy e non necessitiamo di tracciare preferenze o dati
+     personali per alcun motivo.
+    <td>
+   <tr>
+    <td>
+    <td>
+     <strong>Lightshader non usa javascript per tracciamento o per attività non chiare
+     Il poco js contenuto nel sito è dedicato ad animazioni o contenuti esterni che
+     lo necessitano per funzionare, non preoccupatevi, il sito viene testato anche con
+     l'uso di noscript.
+     <br>
+     JS viene comunque usato per le statistiche e vengono pubblicate 
+     <a>qui
+     . 
+   <tr>
+    <td>
+     <strong>Gli articoli di Lightshader sono sotto CC:BY-NC-SA
+     Ogni contenuto originale di Lightshader è sotto la licenza creative common:
+     <ul>
+      <li>BY: Puoi condividere e ripostare il contenuto di questo sito, riportando l'autore;
+      <li>NC: Non puoi guadagnare sugli articoli di Lightshader;
+      <li>SA: Tutte le modifiche ai contenuti di Lightshader devono portare la stessa licenza.
+    <td>
+   <tr>
+    <td>
+    <td>
+     <strong>Supportiamo gli annunci etici
+     Ormai gli annunci basati su informazioni tracciate sono comuni, ma questo non le rende
+     "etiche". Gli annunci vengono basati sul contenuto del sito senza tracciare i suoi visitatori.
+ <section .black>
+  <h3>La nostra missione?
+  Ogni giorno creiamo e lavoriamo  per dar vita ai nostri obbiettivi.
+  Abbiamo dedicato un'intera pagina sulle novità di Lightshader e sono
+  sempre a disposizione!
+  <br>
+  <br>
+  <a .button href=@{MissionR}>qui
+  <br>
+ <h1 #authorstitle>Gli autori
+ <section .authors>
+  $forall author <- authors
+   <div>
+    <img src=#{authorsIcon $ entityVal author}>
+    <br>
+    <span>#{authorsName $ entityVal author}
+ <section .footer_banner style=background-image:url(http://horizonc.altervista.org/lishwall1.png)>
