@@ -3,31 +3,33 @@
   <img src=@{StaticR logo_svg}>
 <main>
  <section>
-  <h1>Terms and Licences:
-  Lightshader's terms and licences take safe articles and every information
-  in the site. Every other use is discouraged.
-  <ul>
-   <li>
-    <b>Lightshader don't use cookies or trace user data
-    <br>
-    We aren't interested of personal datas and informations, so there's no
-    cookie in this site or trace user data.
-   <li>
-    <b>Lightshader don't use js for tracing or other activities
-    <br>
-    In fact we don't appreciate js and how js work, so our site is js free
-    or quasi-free. You can use nojs without any using and visible issue.
-   <li>
-    <b>Lightshader articles and sketchs are under CC:BY-NC-SA
-    <br>
-    Every original content in Lightshader is under creative common licence
-    <ul>
-     <li>BY: You have to share the author name with the article (use fancy snippets)
-     <li>NC: You can't get money or monetize lightshader contents
-     <li>SA: When you share a edited lightshader content you have to use the same licence
-   <li>
-    <b>We support ethical ads
-    <br>
-    Unethical activities are common on internet, but this don't make them "ethical",
-    ads are based on aproximated tracking and privacy violations.
-    Our ads are based on a ethical purpose of specifical interest
+ <h1>In breve
+ <h3>I contenuti del sito (articoli, sketchs, medias...)
+ La navigazione nel sito e l'uso delle informazioni contenute richiedono
+ che l'utente sia d'accordo con i termini d'uso, che cosi' ci permettono
+ di tutelare il nostro lavoro.
+ <br>
+ Tutti gli articoli, sketchs e contenuti multimediali originali sono
+ sotto la licenza creative common CC:BY-NC-SA.
+ <ul>
+  <li>
+   BY: Distrubiendo uno dei sopracitati va citato l'autore, in questo
+   caso sara' necessario citare l'autore, Lightshader o citare
+   l'indirizzo dell'articolo;
+  <li>
+   NC: Il materiale sopracitato non e' monetizzabile o utilizzare questi
+   per monetizzazione.
+   Eccezione viene fatta per questioni di debunking, in questo caso questa
+   clausola sara' omessa a condizione che non venga abusato del contenuto
+   di Lightshader;
+  <li>
+   SA: Tutto il materiale di lightshader modificato deve essere necessariamente
+   ripubblicato con la stessa licenza (CC:BY-NC-SA).
+ <h3>Il trattamento dei dati
+ Tutti i dati raccolti vengono usati a solo scopo statistico e informativo.
+ I dati che vengono raccolti sono:
+ <ul>
+  <li>Localita' geografica (la nazione da dove si e' connessi)
+  <li>Browser utilizzato
+  <li>Sistema operativo
+  <li>Data d'ingresso

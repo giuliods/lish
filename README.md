@@ -9,6 +9,7 @@ servizi (in lavorazione), insieme ad altre pagine informative ed esplicative.
 
 Il percorso è:
 
+``
 .
 +-- app
 +-- config (gestione dei database, percorsi pagine e yaml delle impostazioni)
@@ -20,6 +21,7 @@ Il percorso è:
 +-- LICENCE (la licenza BSD 3-clause clear)
 +-- package.yaml (il file delle dipendenze)
 +-- stack.yaml (il file base di stack)
+``
 
 Per la semplice esecuzione non sarà necessario modificare alcun file e soprettutto per l'uso base
 (senza l'aggiunta di moduli non base) non sarà necessario modificare i file .yaml e .yml.
