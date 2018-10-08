@@ -9,17 +9,17 @@ servizi (in lavorazione), insieme ad altre pagine informative ed esplicative.
 
 Il percorso è:
 
-L /
-| L app
-| L config (gestione dei database, percorsi pagine e yaml delle impostazioni)
-| L src (cartella dei handler delle pagine)
-| L static (tutti i file multimediali)
-| L templates (tutti i template html, css e js base delle effettive pagine, non sono compatibili con apache)
-| L test
-| L README.md (questo file)
-| L LICENCE (la licenza BSD 3-clause clear)
-| L package.yaml (il file delle dipendenze)
-| L stack.yaml (il file base di stack)
+.
++-- app
++-- config (gestione dei database, percorsi pagine e yaml delle impostazioni)
++-- src (cartella dei handler delle pagine)
++-- static (tutti i file multimediali)
++-- templates (tutti i template html, css e js base delle effettive pagine, non sono compatibili con apache)
++-- test
++-- README.md (questo file)
++-- LICENCE (la licenza BSD 3-clause clear)
++-- package.yaml (il file delle dipendenze)
++-- stack.yaml (il file base di stack)
 
 Per la semplice esecuzione non sarà necessario modificare alcun file e soprettutto per l'uso base
 (senza l'aggiunta di moduli non base) non sarà necessario modificare i file .yaml e .yml.
