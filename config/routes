@@ -8,12 +8,12 @@
 /robots.txt RobotsR GET
 
 / HomeR GET
-/informazioni AboutR GET
-/Termini TermsR GET
+/info AboutR GET
+/termini TermsR GET
 /articoli/#Text ArticleR GET
 /obbiettivi MissionR GET
 /contatti LinksR GET
-/servizi/#Text ServiceR GET POST
+/software/#Text ServiceR GET POST
 
 /comments CommentR POST
 
