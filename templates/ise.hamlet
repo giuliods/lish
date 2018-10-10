@@ -1,7 +1,7 @@
 <main .tss>
  <h1>500
- <h2>Something go wrong, strange. Please
- <a .btn href=mailto:giuliodestasio98@gmail.com>Report to me
+ <h2>Qualcosa e' andato storto, per favore:
+ <a .btn href=mailto:giuliodestasio98@gmail.com?subject=Errore Lish&body=#{toHtml(Data.Text.pack(show(kind)))}>Riporta
  <br>
  <br>
  <pre>

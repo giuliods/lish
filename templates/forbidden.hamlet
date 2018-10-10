@@ -1,4 +1,4 @@
 <main .tss>
  <h1>403
- <h2>You're not authorized, access or
- <a .btn href=@{HomeR}>Go to homepage
+ <h2>Non sei autorizzato ad accedere a questa pagina
+ <a .btn href=@{HomeR}>Vai alla pagina principale

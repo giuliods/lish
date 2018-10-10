@@ -1,4 +1,4 @@
 <main .tss>
  <h1>404
- <h2>page not found
- <a .btn href=@{HomeR}>Go to homepage
+ <h2>Pagina non trovata
+ <a .btn href=@{HomeR}>Torna alla pagina principale
