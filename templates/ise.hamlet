@@ -1,0 +1,8 @@
+<main .tss>
+ <h1>500
+ <h2>Something go wrong, strange. Please
+ <a .btn href=mailto:giuliodestasio98@gmail.com>Report to me
+ <br>
+ <br>
+ <pre>
+  #{toHtml(Data.Text.pack(show(kind)))}

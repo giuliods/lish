@@ -90,6 +90,15 @@ instance Yesod App where
         120    -- timeout in minutes
         "config/client_session_key.aes"
 
+    errorHandler NotFound = fmap toTypedContent $ defaultLayout $ do
+     $(widgetFile "notfound")
+    errorHandler NotAuthenticated = fmap toTypedContent $ defaultLayout $ do
+     $(widgetFile "forbidden")
+    errorHandler (InternalError kind) = fmap toTypedContent $ defaultLayout $ do
+     $(widgetFile "ise")
+    errorHandler kind = fmap toTypedContent $ defaultLayout $ do
+     $(widgetFile "ise")
+
     -- Yesod Middleware allows you to run code before and after each handler function.
     -- The defaultYesodMiddleware adds the response header "Vary: Accept, Accept-Language" and performs authorization checks.
     -- Some users may also want to add the defaultCsrfMiddleware, which:
