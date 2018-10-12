@@ -3,7 +3,14 @@ $forall article <- articles
   <div .titleheader>
    <h1>#{articlesTitle $ entityVal article}
  <main>
-  <br>
+  <section .black>
+   <table>
+    <tr>
+     <td>
+      <h1>ICO
+     <td>
+      <h2>Autore
+      <div>bio
   <section itemprop=pageStart>
    <article itemscope itemtype=http://schema.org/Article>
     <span .hidden itemprop=name>#{articlesTitle $ entityVal article}
